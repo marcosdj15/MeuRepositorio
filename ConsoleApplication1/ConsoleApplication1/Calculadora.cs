@@ -8,6 +8,8 @@ namespace ConsoleApplication1
 {
     class Calculadora
     {
+        public double result;
+
         static void Main(string[] args)
         {
         }
@@ -26,5 +28,20 @@ namespace ConsoleApplication1
         {
             return a * b;
         }
+
+        public void Divisao(double a, double b)
+        {
+            if (b == 0)
+            {
+                Console.WriteLine("Impossivel Dividir por Zero !!");
+            }
+            else
+            {
+                result = a / b;
+                Console.WriteLine("O Resultado é : " + result);
+            }
+            
+        } 
+
     }
 }
