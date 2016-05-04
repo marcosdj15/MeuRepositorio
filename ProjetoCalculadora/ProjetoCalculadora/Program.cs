@@ -15,5 +15,10 @@ namespace ProjetoCalculadora
         {
             return a + b;
         }
+
+        public int Subtrair(int a, int b)
+        {
+            return a - b;
+        }
     }
 }
